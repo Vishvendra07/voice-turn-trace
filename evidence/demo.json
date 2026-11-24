@@ -1,0 +1,68 @@
+{
+  "turns": [
+    {
+      "id": "en-01",
+      "locale": "en",
+      "terminal": "completed",
+      "wall_ms": 980,
+      "stages_ms": {
+        "transcript": 120,
+        "inference": 490,
+        "synthesis": 388,
+        "playback": 170
+      },
+      "longest_stage": "inference",
+      "first_audio_ms": 810,
+      "post_interrupt_playback_ms": null
+    },
+    {
+      "id": "te-01",
+      "locale": "te",
+      "terminal": "completed",
+      "wall_ms": 1130,
+      "stages_ms": {
+        "transcript": 145,
+        "inference": 570,
+        "synthesis": 426,
+        "playback": 175
+      },
+      "longest_stage": "inference",
+      "first_audio_ms": 955,
+      "post_interrupt_playback_ms": null
+    },
+    {
+      "id": "hi-01",
+      "locale": "hi",
+      "terminal": "interrupted",
+      "wall_ms": 843,
+      "stages_ms": {
+        "transcript": 150,
+        "inference": 469,
+        "synthesis": 360,
+        "playback": 73
+      },
+      "longest_stage": "inference",
+      "first_audio_ms": 770,
+      "post_interrupt_playback_ms": 3
+    },
+    {
+      "id": "en-02",
+      "locale": "en",
+      "terminal": "completed",
+      "wall_ms": 840,
+      "stages_ms": {
+        "transcript": 81,
+        "inference": 484,
+        "synthesis": 266,
+        "playback": 142
+      },
+      "longest_stage": "inference",
+      "first_audio_ms": 698,
+      "post_interrupt_playback_ms": null
+    }
+  ],
+  "completed_only": {
+    "n": 3,
+    "first_audio_p95_ms": 955
+  }
+}

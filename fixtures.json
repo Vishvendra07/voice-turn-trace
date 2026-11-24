@@ -1,0 +1,6 @@
+[
+  {"id":"en-01","locale":"en","terminal":"completed","spans":[["transcript",0,120],["inference",121,611],["synthesis",400,788],["playback",810,980]]},
+  {"id":"te-01","locale":"te","terminal":"completed","spans":[["transcript",0,145],["inference",150,720],["synthesis",510,936],["playback",955,1130]]},
+  {"id":"hi-01","locale":"hi","terminal":"interrupted","spans":[["transcript",0,150],["inference",151,620],["synthesis",375,735],["playback",770,843]],"interrupt_ms":840},
+  {"id":"en-02","locale":"en","terminal":"completed","spans":[["transcript",0,81],["inference",86,570],["synthesis",414,680],["playback",698,840]]}
+]
